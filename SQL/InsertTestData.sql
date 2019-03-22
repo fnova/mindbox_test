@@ -6,5 +6,5 @@ Execute CategorizedProduct_Insert 'Slippers', 'Shoes'
 Execute CategorizedProduct_Insert 'Sneakers', 'Shoes'
 
 
-INSERT INTO [dbo].[Products] VALUES ('Computer')
-INSERT INTO [dbo].[Products] VALUES ('Phone')
+INSERT INTO Products VALUES ('Computer')
+INSERT INTO Products VALUES ('Phone')
