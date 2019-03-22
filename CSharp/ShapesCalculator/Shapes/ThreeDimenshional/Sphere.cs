@@ -7,7 +7,7 @@ namespace ShapesCalculator.Shapes.ThreeDimenshional
     {
         public TUnit Radius { get; }
         public Square<TUnit> Square => new Square<TUnit>(4 * Math.PI * Radius.Value.Square());
-        public Cubic<TUnit> Volume => new Cubic<TUnit>(4 / 3 * Math.PI * Radius.Value.Cube());
+        public Cubic<TUnit> Volume => new Cubic<TUnit>(4d / 3d * Math.PI * Radius.Value.Cube());
 
         public Sphere(double radius) : this(MeasurementUnit.ValueTo<TUnit>(radius))
         {

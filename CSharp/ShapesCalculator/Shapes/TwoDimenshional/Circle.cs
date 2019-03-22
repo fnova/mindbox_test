@@ -14,7 +14,7 @@ namespace ShapesCalculator.Shapes.TwoDimenshional
 
         public Circle(TUnit radius)
         {
-            Radius = radius ?? throw new ArgumentException(nameof(radius));
+            Radius = radius ?? throw new ArgumentNullException(nameof(radius));
         }
     }
 }

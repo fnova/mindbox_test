@@ -61,7 +61,7 @@ namespace ShapesCalculator.Tests
         {
             var centimeter = MeasurementUnit.ValueTo<Centimeter>(5);
 
-            Assert.AreEqual(5, centimeter);
+            Assert.AreEqual(5, centimeter.Value);
         }
 
     }

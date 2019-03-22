@@ -49,8 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircleTests.cs" />
     <Compile Include="MeasurementUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RectangleTests.cs" />
+    <Compile Include="SphereTests.cs" />
     <Compile Include="TrianlgeTests.cs" />
   </ItemGroup>
   <ItemGroup>
